@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register(): void
     {
         //
     }
@@ -32,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
 
         Paginator::useBootstrap();
@@ -41,7 +41,7 @@ class AppServiceProvider extends ServiceProvider
         $sidebar_top_ad = SidebarAdvertisement::where('sidebar_ad_location','Top')->get();
         $sidebar_bottom_ad = SidebarAdvertisement::where('sidebar_ad_location','Bottom')->get();
         $categories = Category::with('rSubCategory')->where('show_on_menu','Show')->orderBy('category_order','asc')->get();
-                
+
         $social_item_data = SocialItem::get();
         $setting_data = Setting::where('id',1)->first();
         $language_data = Language::get();
