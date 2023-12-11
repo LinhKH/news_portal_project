@@ -213,6 +213,47 @@
                                                             <li class="list-inline-item"><span
                                                                     class="badge bg-secondary badge-pill">HTML/CSS/Bootstrap</span>
                                                             </li>
+                                                            <li class="list-inline-item"><span
+                                                                    class="badge bg-secondary badge-pill">Jquery</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!--//resume-timeline-item-desc-->
+
+                                                </div><!--//resume-timeline-->
+
+                                            </div>
+                                            <div class="resume-section-content">
+
+                                                <div class="resume-timeline position-relative">
+                                                    <div class="resume-timeline-item-header mb-2">
+                                                        <div class="d-flex flex-column flex-md-row">
+                                                            <h3 class="resume-position-title font-weight-bold mb-1">
+                                                                Developing a complete news portal website</h3>
+                                                        </div><!--//row-->
+                                                    </div><!--//resume-timeline-item-header-->
+                                                    <div class="resume-timeline-item-desc">
+                                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                                            Source Code:</h4>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item">
+                                                                <a href="http://128.199.85.33/"
+                                                                    target="_blank">http://128.199.85.33/</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!--//resume-timeline-item-desc-->
+                                                    <div class="resume-timeline-item-desc">
+                                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                                            Technologies used:</h4>
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><span
+                                                                    class="badge bg-secondary badge-pill">Laravel
+                                                                    Framework</span></li>
+                                                            <li class="list-inline-item"><span
+                                                                    class="badge bg-secondary badge-pill">HTML/CSS/Bootstrap</span>
+                                                            </li>
+                                                            <li class="list-inline-item"><span
+                                                                    class="badge bg-secondary badge-pill">Javascript/Jquery/Ajax</span>
+                                                            </li>
                                                         </ul>
                                                     </div><!--//resume-timeline-item-desc-->
 
